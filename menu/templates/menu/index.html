@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Example</title>
+    <style>
+        ul {
+            list-style-type: none;
+            padding-left: 20px;
+        }
+        .active {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>My Website</h1>
+
+    <!-- Отображение меню -->
+    {% load menu_tags %}
+    {% draw_menu 'main_menu' %}
+
+    <hr>
+    <div>
+        {% block content %}
+        <p>Welcome to the homepage!</p>
+        {% endblock %}
+    </div>
+</body>
+</html>
+
+
