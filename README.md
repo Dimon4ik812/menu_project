@@ -1,6 +1,5 @@
 # Django Menu App
 
-![Python Version](https://img.shields.io/badge/Python-3.8%2B-blue) ![Flask](https://img.shields.io/badge/Flask-2.3.3-green) ![License](https://img.shields.io/badge/License-MIT-yellow)
 
 Django-приложение реализует древовидное меню.
 
